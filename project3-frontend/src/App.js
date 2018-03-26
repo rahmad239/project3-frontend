@@ -18,6 +18,7 @@ class App extends Component {
       jobStatus: 'Interview Pending',
       contactStatus: 'Phone Interview'
     };
+    console.log(this.state.companyName);
   }
   render() {
     return (
@@ -26,8 +27,14 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <div className="App-intro">
-          <Job />
-          <Company />
+          <div className="Job-blocks">
+            <Job />
+          </div>
+          <br />
+          <br />
+          <div className="Company-blocks">
+            <Company />
+          </div>
         </div>
       </div>
     );

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import App from './App.js';
 
 class Company extends Component {
   render() {
@@ -15,3 +16,5 @@ class Company extends Component {
 }
 
 export default Company;
+
+// console.log(this.props);
