@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Company from './Company.js';
-import Job from './Job.js';
+import Company from './Company';
+import Job from './Job';
+import NewCompany from './NewCompany';
+import NewJob from './NewJob';
+import CompanyDetails from './CompanyDetails';
+import JobDetails from './JobDetails';
 
 class App extends Component {
   constructor(props) {
@@ -28,12 +32,12 @@ class App extends Component {
         </header>
         <div className="App-intro">
           <div className="Job-blocks">
-            <Job />
+            <JobDetails />
           </div>
           <br />
           <br />
           <div className="Company-blocks">
-            <Company />
+            <CompanyDetails />
           </div>
         </div>
       </div>
